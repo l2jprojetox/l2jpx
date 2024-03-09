@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="l2jProjectX">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/head-src" />
+      <root url="file://$PROJECT_DIR$/dist/gameserver/data/scripts" />
+    </SOURCES>
+  </library>
+</component>

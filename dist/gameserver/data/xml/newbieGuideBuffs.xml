@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<buff skillId="4322" skillLevel="1" minLevel="10" maxLevel="24" giveToMage="true" giveToWarrior="true" /><!-- WindWalk -->
+	<buff skillId="4323" skillLevel="1" minLevel="11" maxLevel="23" giveToMage="true" giveToWarrior="true" /><!-- Shield -->
+	<buff skillId="4338" skillLevel="1" minLevel="16" maxLevel="19" giveToMage="true" giveToWarrior="true" /><!-- Life Cubic -->
+
+	<buff skillId="4324" skillLevel="1" minLevel="12" maxLevel="22" giveToMage="false" giveToWarrior="true" /><!-- Bless the Body -->
+	<buff skillId="4325" skillLevel="1" minLevel="13" maxLevel="21" giveToMage="false" giveToWarrior="true" /><!-- Vampiric Rage -->
+	<buff skillId="4326" skillLevel="1" minLevel="14" maxLevel="20" giveToMage="false" giveToWarrior="true" /><!-- Regeneration -->
+	<buff skillId="4327" skillLevel="1" minLevel="15" maxLevel="19" giveToMage="false" giveToWarrior="true" /><!-- Haste -->
+
+	<buff skillId="4328" skillLevel="1" minLevel="12" maxLevel="22" giveToMage="true" giveToWarrior="false" /><!-- Bless the Soul -->
+	<buff skillId="4329" skillLevel="1" minLevel="13" maxLevel="21" giveToMage="true" giveToWarrior="false" /><!-- Acumen -->
+	<buff skillId="4330" skillLevel="1" minLevel="14" maxLevel="20" giveToMage="true" giveToWarrior="false" /><!-- Concentration -->
+	<buff skillId="4331" skillLevel="1" minLevel="15" maxLevel="19" giveToMage="true" giveToWarrior="false" /><!-- Empower -->
+</list>
