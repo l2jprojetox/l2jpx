@@ -45,7 +45,7 @@ class Quest (JQuest) :
 
  def onTalk (self, npc, player):
     st = player.getQuestState(qn)
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>I have no tasks for you right now.</body></html>"
     if st :
        npcId = npc.getNpcId()
        cond = st.getInt("cond")

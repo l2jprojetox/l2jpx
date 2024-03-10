@@ -217,7 +217,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player) :
    st = player.getQuestState(qn)
-   htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>" 
+   htmltext = "<html><body>I have no tasks for you right now.</body></html>"
    if not st: return htmltext
    npcId = npc.getNpcId()
    id = st.getState()
@@ -250,7 +250,7 @@ class Quest (JQuest) :
              st.playSound("ItemSound.quest_itemget")
      return
 
-QUEST = Quest(384,qn,"Warehouse Keeper\’s Pastime")
+QUEST = Quest(384,qn,"Warehouse Keeper\ï¿½s Pastime")
 CREATED     = State('Start', QUEST)
 STARTED     = State('Started', QUEST)
 
