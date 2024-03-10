@@ -1923,7 +1923,7 @@ public class L2NpcInstance extends L2Character
 		if (q == null)
 		{
 			// No quests found
-			content = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>";
+			content = "<html><body>I have no tasks for you right now.</body></html>";
 		}
 		else
 		{
