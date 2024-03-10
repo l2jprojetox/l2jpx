@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../../l2jpx/l2jpx/dist/gameserver/data/scripts/L2jProjectX.iml" filepath="$PROJECT_DIR$/../../../../l2jpx/l2jpx/dist/gameserver/data/scripts/L2jProjectX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L2jProjectX.iml" filepath="$PROJECT_DIR$/L2jProjectX.iml" />
     </modules>
   </component>
 </project>
