@@ -1,18 +1,18 @@
-[16-04-2024 13:50:33]	INFO	-------------------------------------------------------------------=[ Config ]
-[16-04-2024 13:50:34]	INFO	Loading loginserver configuration files.
-[16-04-2024 13:50:34]	INFO	------------------------------------------------------------------=[ Poolers ]
-[16-04-2024 13:50:34]	INFO	MLog clients using java 1.4+ standard logging.
-[16-04-2024 13:50:34]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
-[16-04-2024 13:50:34]	INFO	----------------------------------------------------------=[ LoginController ]
-[16-04-2024 13:50:34]	INFO	Cached 10 KeyPairs for RSA communication.
-[16-04-2024 13:50:34]	INFO	Stored 20 keys for Blowfish communication.
-[16-04-2024 13:50:34]	INFO	--------------------------------------------------------=[ GameServerManager ]
-[16-04-2024 13:50:35]	INFO	Loaded 127 server names.
-[16-04-2024 13:50:35]	INFO	Loaded 1 registered gameserver(s).
-[16-04-2024 13:50:35]	INFO	Cached 10 RSA keys for gameserver communication.
-[16-04-2024 13:50:35]	INFO	-----------------------------------------------------------------=[ Ban List ]
-[16-04-2024 13:50:35]	INFO	Loaded 0 banned IP(s).
-[16-04-2024 13:50:35]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
-[16-04-2024 13:50:35]	INFO	Listening for gameservers on *:9014.
-[16-04-2024 13:50:35]	INFO	Loginserver ready on *:2106.
-[16-04-2024 13:50:35]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[16-04-2024 17:27:53]	INFO	-------------------------------------------------------------------=[ Config ]
+[16-04-2024 17:27:53]	INFO	Loading loginserver configuration files.
+[16-04-2024 17:27:53]	INFO	------------------------------------------------------------------=[ Poolers ]
+[16-04-2024 17:27:53]	INFO	Initializing ConnectionPool.
+[16-04-2024 17:27:53]	INFO	----------------------------------------------------------=[ LoginController ]
+[16-04-2024 17:27:53]	INFO	Cached 10 KeyPairs for RSA communication.
+[16-04-2024 17:27:53]	INFO	Stored 20 keys for Blowfish communication.
+[16-04-2024 17:27:53]	INFO	--------------------------------------------------------=[ GameServerManager ]
+[16-04-2024 17:27:53]	INFO	Loaded 127 server names.
+[16-04-2024 17:27:54]	INFO	Loaded 1 registered gameserver(s).
+[16-04-2024 17:27:54]	INFO	Cached 10 RSA keys for gameserver communication.
+[16-04-2024 17:27:54]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[16-04-2024 17:27:54]	INFO	Loaded 0 banned IP(s).
+[16-04-2024 17:27:54]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[16-04-2024 17:27:54]	INFO	Listening for gameservers on *:9014.
+[16-04-2024 17:27:54]	INFO	Loginserver ready on *:2106.
+[16-04-2024 17:27:54]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[16-04-2024 17:53:34]	INFO	Hooked [1] Bartz gameserver on: 127.0.0.1.

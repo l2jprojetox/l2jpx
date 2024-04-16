@@ -1,0 +1,2085 @@
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 16_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\16_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 17_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\17_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 18_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\18_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 19_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\19_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 20_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\20_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 21_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\21_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 22_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\22_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 23_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\23_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_13_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_13_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_22_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_22_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_23_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_23_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_24_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_24_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 24_25_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\24_25_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_10_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_10_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_17_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_17_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_18_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_18_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_19_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_19_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_20_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_20_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 25_21_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\25_21_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 26_11_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\26_11_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 26_12_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\26_12_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 26_14_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\26_14_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 26_15_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\26_15_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+
+abr. 16, 2024 5:49:42 PM com.px.gameserver.geoengine.GeoEngine loadGeoBlocks
+GRAVE: Error loading 26_16_conv.dat region file.
+java.io.FileNotFoundException: .\data\geodata\26_16_conv.dat (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at com.px.gameserver.geoengine.GeoEngine.loadGeoBlocks(GeoEngine.java:185)
+	at com.px.gameserver.geoengine.GeoEngine.<init>(GeoEngine.java:90)
+	at com.px.gameserver.geoengine.GeoEngine$SingletonHolder.<clinit>(GeoEngine.java:2090)
+	at com.px.gameserver.geoengine.GeoEngine.getInstance(GeoEngine.java:2085)
+	at com.px.gameserver.GameServer.<init>(GameServer.java:192)
+	at com.px.gameserver.GameServer.main(GameServer.java:111)
+

@@ -185,9 +185,16 @@ public class GameServer
 		
 		StringUtil.printSection("Clans");
 		ClanTable.getInstance();
-		
-		StringUtil.printSection("Geodata & Pathfinding");
-		GeoEngine.getInstance();
+
+
+		if (Config.GEODATA_ENABLE) {
+			StringUtil.printSection("Geodata & Pathfinding");
+			GeoEngine.getInstance();
+		} else {
+			LOGGER.info("Geodata is disabled.");
+		}
+
+
 		
 		StringUtil.printSection("Zones");
 		ZoneManager.getInstance();

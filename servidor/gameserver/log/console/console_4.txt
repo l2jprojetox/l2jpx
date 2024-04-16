@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-04-16T20:47:02.800181900Z</date>
+  <millis>1713300422800</millis>
+  <nanos>181900</nanos>
+  <sequence>0</sequence>
+  <logger>com.px.commons.lang.StringUtil</logger>
+  <level>INFO</level>
+  <class>com.px.commons.lang.StringUtil</class>
+  <method>printSection</method>
+  <thread>1</thread>
+  <message>-------------------------------------------------------------------=[ Config ]</message>
+</record>
+<record>
+  <date>2024-04-16T20:47:02.873694Z</date>
+  <millis>1713300422873</millis>
+  <nanos>694000</nanos>
+  <sequence>1</sequence>
+  <logger>com.px.Config</logger>
+  <level>INFO</level>
+  <class>com.px.Config</class>
+  <method>loadGameServer</method>
+  <thread>1</thread>
+  <message>Loading gameserver configuration files.</message>
+</record>
+<record>
+  <date>2024-04-16T20:47:02.886187100Z</date>
+  <millis>1713300422886</millis>
+  <nanos>187100</nanos>
+  <sequence>2</sequence>
+  <logger>com.px.commons.lang.StringUtil</logger>
+  <level>INFO</level>
+  <class>com.px.commons.lang.StringUtil</class>
+  <method>printSection</method>
+  <thread>1</thread>
+  <message>------------------------------------------------------------------=[ Poolers ]</message>
+</record>
+</log>

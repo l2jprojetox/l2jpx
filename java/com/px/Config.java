@@ -200,6 +200,7 @@ public final class Config
 	// --------------------------------------------------
 	
 	/** Geodata */
+	public static boolean GEODATA_ENABLE;
 	public static String GEODATA_PATH;
 	public static GeoType GEODATA_TYPE;
 	
@@ -774,7 +775,8 @@ public final class Config
 	private static final void loadGeoengine()
 	{
 		final ExProperties geoengine = initProperties(GEOENGINE_FILE);
-		
+
+		GEODATA_ENABLE = geoengine.getProperty("GeoDataEnable", true);
 		GEODATA_PATH = geoengine.getProperty("GeoDataPath", "./data/geodata/");
 		GEODATA_TYPE = Enum.valueOf(GeoType.class, geoengine.getProperty("GeoDataType", "L2OFF"));
 		
