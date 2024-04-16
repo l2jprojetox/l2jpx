@@ -1,16 +1,16 @@
-package net.sf.l2j.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.PartyLeaderWarrior.PartyLeaderCasting3SkillsMagicalAggressive;
+package com.px.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.PartyLeaderWarrior.PartyLeaderCasting3SkillsMagicalAggressive;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.px.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.enums.IntentionType;
-import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.PartyLeaderWarrior.PartyLeaderWarrior;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.px.gameserver.data.SkillTable;
+import com.px.gameserver.enums.IntentionType;
+import com.px.gameserver.enums.actors.NpcSkillType;
+import com.px.gameserver.model.actor.Attackable;
+import com.px.gameserver.model.actor.Creature;
+import com.px.gameserver.model.actor.Npc;
+import com.px.gameserver.model.actor.Playable;
+import com.px.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.PartyLeaderWarrior.PartyLeaderWarrior;
+import com.px.gameserver.skills.L2Skill;
 
 public class PartyLeaderCasting3SkillsMagicalAggressive extends PartyLeaderWarrior
 {

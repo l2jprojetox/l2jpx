@@ -1,11 +1,11 @@
-package net.sf.l2j.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.WarriorCastDDMagic.CorePrivateWarriorCastDDMagicAggressive;
+package com.px.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.WarriorCastDDMagic.CorePrivateWarriorCastDDMagicAggressive;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.WarriorCastDDMagic.WarriorCastDDMagicAggressive;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.px.gameserver.data.SkillTable;
+import com.px.gameserver.model.actor.Creature;
+import com.px.gameserver.model.actor.Npc;
+import com.px.gameserver.model.actor.Player;
+import com.px.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.WarriorCastDDMagic.WarriorCastDDMagicAggressive;
+import com.px.gameserver.skills.L2Skill;
 
 public class CorePrivateWarriorCastDDMagicAggressive extends WarriorCastDDMagicAggressive
 {
