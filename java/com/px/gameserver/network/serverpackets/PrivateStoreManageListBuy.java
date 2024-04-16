@@ -1,0 +1,57 @@
+package com.px.gameserver.network.serverpackets;
+
+import java.util.List;
+
+import com.px.gameserver.model.actor.Player;
+import com.px.gameserver.model.item.instance.ItemInstance;
+import com.px.gameserver.model.trade.TradeItem;
+
+public class PrivateStoreManageListBuy extends L2GameServerPacket
+{
+	private final int _objId;
+	private final int _playerAdena;
+	private final List<ItemInstance> _itemList;
+	private final List<TradeItem> _buyList;
+	
+	public PrivateStoreManageListBuy(Player player)
+	{
+		_objId = player.getObjectId();
+		_playerAdena = player.getAdena();
+		_itemList = player.getInventory().getUniqueItems(false, false, true, true, false);
+		_buyList = player.getBuyList();
+	}
+	
+	@Override
+	protected final void writeImpl()
+	{
+		writeC(0xb7);
+		writeD(_objId);
+		writeD(_playerAdena);
+		
+		writeD(_itemList.size());
+		for (ItemInstance item : _itemList)
+		{
+			writeD(item.getItemId());
+			writeH(item.getEnchantLevel());
+			writeD(item.getCount());
+			writeD(item.getReferencePrice());
+			writeH(0x00);
+			writeD(item.getItem().getBodyPart());
+			writeH(item.getItem().getType2());
+		}
+		
+		writeD(_buyList.size());
+		for (TradeItem item : _buyList)
+		{
+			writeD(item.getItem().getItemId());
+			writeH(item.getEnchant());
+			writeD(item.getQuantity());
+			writeD(item.getItem().getReferencePrice());
+			writeH(0x00);
+			writeD(item.getItem().getBodyPart());
+			writeH(item.getItem().getType2());
+			writeD(item.getPrice());
+			writeD(item.getItem().getReferencePrice());
+		}
+	}
+}

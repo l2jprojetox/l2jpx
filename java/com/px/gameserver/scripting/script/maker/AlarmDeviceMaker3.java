@@ -1,0 +1,41 @@
+package com.px.gameserver.scripting.script.maker;
+
+import com.px.gameserver.data.manager.SpawnManager;
+import com.px.gameserver.model.actor.Npc;
+import com.px.gameserver.model.spawn.MultiSpawn;
+import com.px.gameserver.model.spawn.NpcMaker;
+
+public class AlarmDeviceMaker3 extends AlarmDeviceMaker1
+{
+	public AlarmDeviceMaker3(String name)
+	{
+		super(name);
+	}
+	
+	@Override
+	public void onNpcDeleted(Npc npc, MultiSpawn ms, NpcMaker maker)
+	{
+		if (maker.getNpcsAlive() == 0)
+		{
+			onMakerScriptEvent("10008", maker, 0, 0);
+			
+			final MultiSpawn def0 = maker.getSpawns().get(0);
+			if (def0 != null)
+				def0.sendScriptEvent(10025, maker.getMakerMemo().getInteger("i_ai0"), 0);
+			
+			NpcMaker maker0 = SpawnManager.getInstance().getNpcMaker("godard32_2515_19m1");
+			if (maker0 != null)
+				maker0.getMaker().onMakerScriptEvent("10008", maker0, 0, 0);
+			
+			maker0 = SpawnManager.getInstance().getNpcMaker("godard32_2515_22m1");
+			if (maker0 != null)
+				maker0.getMaker().onMakerScriptEvent("10008", maker0, 0, 0);
+			
+			maker0 = SpawnManager.getInstance().getNpcMaker("godard32_2515_21m1");
+			if (maker0 != null)
+				maker0.getMaker().onMakerScriptEvent("10008", maker0, 0, 0);
+			
+			maker.getMakerMemo().set("i_ai0", 0);
+		}
+	}
+}
