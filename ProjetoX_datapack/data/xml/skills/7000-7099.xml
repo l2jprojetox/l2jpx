@@ -104,20 +104,20 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7029" levels="4" name="Super Haste">
-		<!-- GM Skill -->
-		<table name="#amount"> 1.25 1.5 1.75 2 </table>
-		<table name="#reuse"> 0.75 0.50 0.25 0.01 </table>
+	<skill id="7029" levels="4" name="Super Haste" >
+		<table name="#amount"> 1.25 1.5 1.75 5 </table>
+		<table name="#reuse"> 0.75 0.50 0.25 5 </table>
+		<set name="magicLvl" val="1"/>
 		<set name="skillType" val="CONT"/>
-		<set name="operateType" val="OP_TOGGLE"/>
-		<set name="target" val="TARGET_SELF" />
+		<set name="operateType" val="TOGGLE"/>
+		<set name="target" val="SELF" />
 		<for>
 			<effect count="0x7fffffff" name="ManaDamOverTime" time="10" val="0">
-				<mul order="0x30" stat="pAtkSpd" val="#amount" />
-				<mul order="0x30" stat="runSpd" val="#amount" />
-				<mul order="0x30" stat="mAtkSpd" val="#amount" />
-				<mul order="0x30" stat="pReuse" val="#reuse" />
-				<mul order="0x30" stat="mReuse" val="#reuse" />
+				<mul stat="pAtkSpd" val="#amount" />
+				<mul stat="runSpd" val="#amount" />
+				<mul stat="mAtkSpd" val="#amount" />
+				<mul stat="pReuse" val="#reuse" />
+				<mul stat="mReuse" val="#reuse" />
 			</effect>
 		</for>
 	</skill>

@@ -238,4 +238,29 @@ public class ShortcutList
 				deleteShortcut(shortcut.getSlot(), shortcut.getPage());
 		}
 	}
+	
+	public void updateDatabase()
+	{
+		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement ps = con.prepareStatement(INSERT_SHORTCUT))
+		{
+			ps.setInt(1, _owner.getObjectId());
+			ps.setInt(7, _owner.getClassIndex());
+			
+			for (Shortcut shortcut : _shortcuts.values())
+			{
+				ps.setInt(2, shortcut.getSlot());
+				ps.setInt(3, shortcut.getPage());
+				ps.setString(4, shortcut.getType().toString());
+				ps.setInt(5, shortcut.getId());
+				ps.setInt(6, shortcut.getLevel());
+				ps.addBatch();
+			}
+			ps.executeBatch();
+		}
+		catch (Exception e)
+		{
+			LOGGER.error("Couldn't update player shortcuts.", e);
+		}
+	}
 }

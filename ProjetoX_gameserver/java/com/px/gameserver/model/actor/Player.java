@@ -4172,7 +4172,7 @@ public final class Player extends Playable
 	{
 		// We reward all skills to the players, but don't store autoGet skills on the database.
 		for (GeneralSkillNode skill : getAllAvailableSkills())
-			addSkill(skill.getSkill(), skill.getCost() != 0);
+			addSkill(skill.getSkill(), skill.getCost() != 0, true);
 		
 		// Remove the Lucky skill if level superior to 10.
 		if (getLevel() >= 10 && hasSkill(L2Skill.SKILL_LUCKY))
@@ -4222,11 +4222,11 @@ public final class Player extends Playable
 			{
 				// Player level is inferior to 76, or available skill is a good candidate.
 				if ((getLevel() < 76 || availableSkill.getValue() < maxLevel) && skill.getLevel() > availableSkill.getValue())
-					addSkill(availableSkill.getSkill(), true);
+					addSkill(availableSkill.getSkill(), true, true);
 			}
 			// We check if current known skill level is bigger than available skill level. If it's true, we override current skill with available skill.
 			else if (skill.getLevel() > availableSkill.getValue())
-				addSkill(availableSkill.getSkill(), true);
+				addSkill(availableSkill.getSkill(), true, true);
 		}
 	}
 	
@@ -7636,7 +7636,10 @@ public final class Player extends Playable
 			for (Creature character : getKnownType(Creature.class))
 				if (character.getFusionSkill() != null && character.getFusionSkill().getTarget() == this)
 					character.abortCast();
-				
+			
+			// Store the previous classIndex shortcuts
+			getShortcutList().updateDatabase();
+			
 			store();
 			_reuseTimeStamps.clear();
 			
@@ -8226,6 +8229,10 @@ public final class Player extends Playable
 			// friends & blocklist update
 			notifyFriends(false);
 			getBlockList().playerLogout();
+			
+			// Sync shortcuts with database
+			getShortcutList().updateDatabase();
+			
 		}
 		catch (Exception e)
 		{
