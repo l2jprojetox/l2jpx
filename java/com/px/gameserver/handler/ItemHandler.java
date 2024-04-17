@@ -29,6 +29,7 @@ import com.px.gameserver.handler.itemhandlers.SoulShots;
 import com.px.gameserver.handler.itemhandlers.SpecialXMas;
 import com.px.gameserver.handler.itemhandlers.SpiritShots;
 import com.px.gameserver.handler.itemhandlers.SummonItems;
+import com.px.gameserver.handler.itemhandlers.custom.CapsuleBox_System;
 import com.px.gameserver.model.item.kind.EtcItem;
 
 public class ItemHandler
@@ -63,6 +64,7 @@ public class ItemHandler
 		registerHandler(new SoulCrystals());
 		registerHandler(new SpiritShots());
 		registerHandler(new SummonItems());
+		registerHandler(new CapsuleBox_System());
 	}
 	
 	private void registerHandler(IItemHandler handler)

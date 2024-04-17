@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CapsuleBox>
+    <capsuled_items ID="57"  PlayerLevel="1"> <!-- Mage Starter Pack LVL 1-->
+        <item itemId="7575" min="1" max="1" enchantLevel="5"  chance="100"/>
+        <item itemId="7575" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="57" min="4000000" max="4000000" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9603"  PlayerLevel="20"> <!-- Mage Starter Pack LVL 20-->
+        <item itemId="437" min="1" max="1" enchantLevel="5"  chance="100"/>
+        <item itemId="470" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="2450" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="850" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="850" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="881" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="881" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="913" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="189" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="630" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="9604" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="5263" min="1" max="1" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9604"  PlayerLevel="40"> <!-- Mage Starter Pack LVL 40-->
+        <item itemId="439" min="1" max="1" enchantLevel="5"  chance="100"/>
+        <item itemId="471" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="2454" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="853" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="853" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="884" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="884" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="916" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="84" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="2495" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="5264" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9605" min="1" max="1" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9605"  PlayerLevel="50"> <!-- Mage Starter Pack LVL 52-->
+        <item itemId="2415" min="1" max="1" enchantLevel="5"  chance="100"/>
+        <item itemId="2406" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="5732" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="5716" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="864" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="864" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="895" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="895" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="926" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="673" min="1" max="1" enchantLevel="5" chance="100"/>
+        <item itemId="5265" min="1" max="2" enchantLevel="0" chance="100"/>
+        <item itemId="148" min="1" max="1" enchantLevel="5" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9606"  PlayerLevel="80"> <!-- Mage Starter Pack Donate -->
+        <item itemId="9224" min="1" max="1" enchantLevel="20"  chance="100"/>
+        <item itemId="9225" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9226" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9227" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9515" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9521" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9527" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9533" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9539" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="30003" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="6608" min="1" max="1" enchantLevel="35" chance="100"/>
+        <item itemId="6656" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="6657" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="6658" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="6659" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="6660" min="1" max="1" enchantLevel="20" chance="100"/>
+        <item itemId="9500" min="1" max="1" enchantLevel="20" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9630"  PlayerLevel="1"> <!-- Fighter Starter Pack LVL 1-->
+        <item itemId="9550" min="1" max="1" enchantLevel="0"  chance="100"/>
+        <item itemId="9551" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9552" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9553" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9554" min="1" max="1" enchantLevel="0"  chance="100"/>
+        <item itemId="9555" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9556" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9560" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9561" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9561" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9562" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9562" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9545" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="5250" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="57" min="4000000" max="4000000" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9631"  PlayerLevel="20"> <!-- Fighter Starter Pack LVL 20-->
+        <item itemId="68" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="711" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="715" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="908" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="9632" min="1" max="1" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9632"  PlayerLevel="40"> <!-- Fighter Starter Pack LVL 40-->
+        <item itemId="68" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="711" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="715" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="908" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="1463" min="1" max="5" enchantLevel="0" chance="100"/>
+        <item itemId="9633" min="1" max="1" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9633"  PlayerLevel="50"> <!-- Fighter Starter Pack LVL 50-->
+        <item itemId="68" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="711" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="715" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="908" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="1463" min="1" max="5" enchantLevel="0" chance="100"/>
+        <item itemId="9634" min="1" max="1" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9634"  PlayerLevel="80"> <!-- Fighter Starter Pack Donate -->
+        <item itemId="68" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="711" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="715" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="908" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="1463" min="1" max="5" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+    <capsuled_items ID="9635"  PlayerLevel="80"> <!-- Fighter Starter Pack Donate -->
+        <item itemId="68" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="711" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="715" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="908" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="115" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="877" min="1" max="1" enchantLevel="0" chance="100"/>
+        <item itemId="1463" min="1" max="5" enchantLevel="0" chance="100"/>
+    </capsuled_items>
+</CapsuleBox>

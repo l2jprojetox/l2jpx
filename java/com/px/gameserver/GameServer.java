@@ -95,6 +95,7 @@ import com.px.gameserver.taskmanager.ItemsOnGroundTaskManager;
 import com.px.gameserver.taskmanager.PvpFlagTaskManager;
 import com.px.gameserver.taskmanager.ShadowItemTaskManager;
 import com.px.gameserver.taskmanager.WaterTaskManager;
+import com.px.l2jhost.CapsuleBox.CapsuleBoxData;
 import com.px.util.DeadLockDetector;
 import com.px.util.IPv4Filter;
 
@@ -254,6 +255,9 @@ public class GameServer
 		DerbyTrackManager.getInstance();
 		LotteryManager.getInstance();
 		CoupleManager.getInstance();
+
+		StringUtil.printSection("Custons");
+		CapsuleBoxData.getInstance();
 		
 		if (Config.ALLOW_FISH_CHAMPIONSHIP)
 			FishingChampionshipManager.getInstance();

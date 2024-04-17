@@ -768,6 +768,7 @@
 		<set name="material" val="GOLD" />
 		<set name="price" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="CapsuleBox_System" />
 	</item>
 	<item id="58" type="Armor" name="Mithril Breastplate">
 		<set name="default_action" val="equip" />

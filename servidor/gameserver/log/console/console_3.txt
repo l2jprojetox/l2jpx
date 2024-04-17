@@ -1,224 +1,192 @@
-[16-04-2024 17:47:41]	INFO	-------------------------------------------------------------------=[ Config ]
-[16-04-2024 17:47:41]	INFO	Loading gameserver configuration files.
-[16-04-2024 17:47:41]	INFO	------------------------------------------------------------------=[ Poolers ]
-[16-04-2024 17:47:41]	INFO	Initializing ConnectionPool.
-[16-04-2024 17:47:41]	INFO	Initializing ThreadPool.
-[16-04-2024 17:47:41]	INFO	----------------------------------------------------------------=[ IdFactory ]
-[16-04-2024 17:47:41]	INFO	Updated characters online status.
-[16-04-2024 17:47:41]	INFO	Cleaned 0 elements from database.
-[16-04-2024 17:47:41]	INFO	Cleaned 0 expired timestamps from database.
-[16-04-2024 17:47:41]	INFO	Initializing 102912 objectIds pool, with 0 used ids.
-[16-04-2024 17:47:41]	INFO	--------------------------------------------------------------------=[ Cache ]
-[16-04-2024 17:47:41]	INFO	Loaded 0 crests.
-[16-04-2024 17:47:41]	INFO	--------------------------------------------------------------------=[ World ]
-[16-04-2024 17:47:41]	INFO	World grid (176 by 256) is now set up.
-[16-04-2024 17:47:41]	INFO	Loaded 0 announcements.
-[16-04-2024 17:47:41]	INFO	Loaded 0 server variables.
-[16-04-2024 17:47:41]	INFO	-------------------------------------------------------------------=[ Skills ]
-[16-04-2024 17:47:42]	INFO	SkillTable: Loaded 29742 skills.
-[16-04-2024 17:47:43]	INFO	Loaded 117 fishing skills.
-[16-04-2024 17:47:43]	INFO	Loaded 64 clan skills.
-[16-04-2024 17:47:43]	INFO	Loaded 14550 enchant skills.
-[16-04-2024 17:47:43]	INFO	--------------------------------------------------------------------=[ Items ]
-[16-04-2024 17:47:43]	INFO	Loaded items.
-[16-04-2024 17:47:43]	INFO	Loaded 13 summon items.
-[16-04-2024 17:47:43]	INFO	Loaded 180 hennas.
-[16-04-2024 17:47:43]	INFO	Loaded 675 buyLists.
-[16-04-2024 17:47:43]	INFO	Loaded 85 multisell.
-[16-04-2024 17:47:43]	INFO	Loaded 871 recipes.
-[16-04-2024 17:47:43]	INFO	Loaded 51 armor sets.
-[16-04-2024 17:47:43]	INFO	Loaded 270 fish.
-[16-04-2024 17:47:43]	INFO	Loaded 334 spellbooks.
-[16-04-2024 17:47:43]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
-[16-04-2024 17:47:43]	INFO	Loaded 4 sets of augmentation stats.
-[16-04-2024 17:47:43]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
-[16-04-2024 17:47:43]	INFO	Loaded 2 cursed weapons.
-[16-04-2024 17:47:43]	INFO	-------------------------------------------------------------------=[ Admins ]
-[16-04-2024 17:47:43]	INFO	Loaded 10 access levels.
-[16-04-2024 17:47:43]	INFO	Loaded 98 admin command rights.
-[16-04-2024 17:47:43]	INFO	Loaded 0 bookmarks.
-[16-04-2024 17:47:43]	INFO	Loaded 0 petitions.
-[16-04-2024 17:47:43]	INFO	---------------------------------------------------------------=[ Characters ]
-[16-04-2024 17:47:43]	INFO	Loaded 89 player classes templates.
-[16-04-2024 17:47:43]	INFO	Loaded 0 player infos.
-[16-04-2024 17:47:43]	INFO	Loaded 81 player levels.
-[16-04-2024 17:47:43]	INFO	Loaded 0 RaidPoints entries.
-[16-04-2024 17:47:43]	INFO	Loaded 29 healSps entries.
-[16-04-2024 17:47:43]	INFO	Loaded 92 restart areas and 36 restart points.
-[16-04-2024 17:47:43]	INFO	---------------------------------------------------------=[ Community server ]
-[16-04-2024 17:47:43]	INFO	--------------------------------------------------------------------=[ Clans ]
-[16-04-2024 17:47:43]	INFO	Loaded 0 clans.
-[16-04-2024 17:47:43]	INFO	Geodata is disabled.
-[16-04-2024 17:47:43]	INFO	--------------------------------------------------------------------=[ Zones ]
-[16-04-2024 17:47:49]	INFO	Loaded 23 zones classes and total 1016 zones.
-[16-04-2024 17:47:49]	INFO	-----------------------------------------------------=[ Castles & Clan Halls ]
-[16-04-2024 17:47:49]	INFO	Loaded 9 castles.
-[16-04-2024 17:47:50]	INFO	New date for Gludio siege: Sat May 04 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Dion siege: Sat May 04 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Giran siege: Sun Apr 28 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Oren siege: Sun Apr 28 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Aden siege: Sat May 04 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Innadril siege: Sun Apr 28 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Goddard siege: Sun Apr 28 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Rune siege: Sat May 04 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	New date for Schuttgart siege: Sat May 04 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	Loaded 44 clan halls and 6 siegable clan halls.
-[16-04-2024 17:47:50]	INFO	------------------------------------------------------------=[ Task Managers ]
-[16-04-2024 17:47:50]	INFO	Restored 0 items on ground.
-[16-04-2024 17:47:50]	INFO	--------------------------------------------------------------=[ Seven Signs ]
-[16-04-2024 17:47:50]	INFO	Currently on Competition (Quest Event) period.
-[16-04-2024 17:47:50]	INFO	The Seal of Strife remains unclaimed.
-[16-04-2024 17:47:50]	INFO	The Seal of Avarice remains unclaimed.
-[16-04-2024 17:47:50]	INFO	The Seal of Gnosis remains unclaimed.
-[16-04-2024 17:47:50]	INFO	The Seven Signs competition will end in a tie this week.
-[16-04-2024 17:47:50]	INFO	Next Seven Signs period change set to Mon Apr 22 18:00:00 BRT 2024.
-[16-04-2024 17:47:50]	INFO	Next Seven Signs period begins in 6 days, 0 hours and 12 mins.
-[16-04-2024 17:47:50]	INFO	The first Festival of Darkness cycle begins in 2 minute(s).
-[16-04-2024 17:47:50]	INFO	------------------------------------------------------------=[ Manor Manager ]
-[16-04-2024 17:47:50]	INFO	Loaded 121 manor areas.
-[16-04-2024 17:47:50]	INFO	Loaded 246 seeds.
-[16-04-2024 17:47:50]	INFO	---------------------------------------------------------------------=[ NPCs ]
-[16-04-2024 17:47:50]	INFO	Loaded 60 available buffs.
-[16-04-2024 17:47:51]	INFO	Loaded 6499 NPC templates.
-[16-04-2024 17:47:52]	INFO	Loaded 132 walking routes.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 16_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 17_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 18_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 19_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 20_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 21_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 22_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 23_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_13_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_22_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_23_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_24_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 24_25_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_10_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_16_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_17_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_18_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_19_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_20_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 25_21_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 26_11_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 26_12_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 26_14_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 26_15_conv.dat region file.
-[16-04-2024 17:47:52]	SEVERE	Error loading 26_16_conv.dat region file.
-[16-04-2024 17:47:52]	INFO	Loaded 0 L2OFF region files.
-[16-04-2024 17:47:52]	WARNING	Failed to load 139 L2OFF region files. Please consider to check your "geodata.properties" settings and location of your geodata files.
+[16-04-2024 17:52:48]	INFO	-------------------------------------------------------------------=[ Config ]
+[16-04-2024 17:52:48]	INFO	Loading gameserver configuration files.
+[16-04-2024 17:52:48]	INFO	------------------------------------------------------------------=[ Poolers ]
+[16-04-2024 17:52:48]	INFO	Initializing ConnectionPool.
+[16-04-2024 17:52:48]	INFO	Initializing ThreadPool.
+[16-04-2024 17:52:48]	INFO	----------------------------------------------------------------=[ IdFactory ]
+[16-04-2024 17:52:48]	INFO	Updated characters online status.
+[16-04-2024 17:52:48]	INFO	Cleaned 0 elements from database.
+[16-04-2024 17:52:48]	INFO	Cleaned 0 expired timestamps from database.
+[16-04-2024 17:52:48]	INFO	Initializing 102912 objectIds pool, with 0 used ids.
+[16-04-2024 17:52:48]	INFO	--------------------------------------------------------------------=[ Cache ]
+[16-04-2024 17:52:48]	INFO	Loaded 0 crests.
+[16-04-2024 17:52:48]	INFO	--------------------------------------------------------------------=[ World ]
+[16-04-2024 17:52:48]	INFO	World grid (176 by 256) is now set up.
+[16-04-2024 17:52:48]	INFO	Loaded 0 announcements.
+[16-04-2024 17:52:48]	INFO	Loaded 0 server variables.
+[16-04-2024 17:52:48]	INFO	-------------------------------------------------------------------=[ Skills ]
+[16-04-2024 17:52:49]	INFO	SkillTable: Loaded 29742 skills.
+[16-04-2024 17:52:49]	INFO	Loaded 117 fishing skills.
+[16-04-2024 17:52:49]	INFO	Loaded 64 clan skills.
+[16-04-2024 17:52:49]	INFO	Loaded 14550 enchant skills.
+[16-04-2024 17:52:49]	INFO	--------------------------------------------------------------------=[ Items ]
+[16-04-2024 17:52:50]	INFO	Loaded items.
+[16-04-2024 17:52:50]	INFO	Loaded 13 summon items.
+[16-04-2024 17:52:50]	INFO	Loaded 180 hennas.
+[16-04-2024 17:52:50]	INFO	Loaded 675 buyLists.
+[16-04-2024 17:52:50]	INFO	Loaded 85 multisell.
+[16-04-2024 17:52:50]	INFO	Loaded 871 recipes.
+[16-04-2024 17:52:50]	INFO	Loaded 51 armor sets.
+[16-04-2024 17:52:50]	INFO	Loaded 270 fish.
+[16-04-2024 17:52:50]	INFO	Loaded 334 spellbooks.
+[16-04-2024 17:52:50]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
+[16-04-2024 17:52:50]	INFO	Loaded 4 sets of augmentation stats.
+[16-04-2024 17:52:50]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
+[16-04-2024 17:52:50]	INFO	Loaded 2 cursed weapons.
+[16-04-2024 17:52:50]	INFO	-------------------------------------------------------------------=[ Admins ]
+[16-04-2024 17:52:50]	INFO	Loaded 10 access levels.
+[16-04-2024 17:52:50]	INFO	Loaded 98 admin command rights.
+[16-04-2024 17:52:50]	INFO	Loaded 0 bookmarks.
+[16-04-2024 17:52:50]	INFO	Loaded 0 petitions.
+[16-04-2024 17:52:50]	INFO	---------------------------------------------------------------=[ Characters ]
+[16-04-2024 17:52:51]	INFO	Loaded 89 player classes templates.
+[16-04-2024 17:52:51]	INFO	Loaded 0 player infos.
+[16-04-2024 17:52:51]	INFO	Loaded 81 player levels.
+[16-04-2024 17:52:51]	INFO	Loaded 0 RaidPoints entries.
+[16-04-2024 17:52:51]	INFO	Loaded 29 healSps entries.
+[16-04-2024 17:52:51]	INFO	Loaded 92 restart areas and 36 restart points.
+[16-04-2024 17:52:51]	INFO	---------------------------------------------------------=[ Community server ]
+[16-04-2024 17:52:51]	INFO	--------------------------------------------------------------------=[ Clans ]
+[16-04-2024 17:52:51]	INFO	Loaded 0 clans.
+[16-04-2024 17:52:51]	INFO	----------------------------------------------------=[ Geodata & Pathfinding ]
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 16_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 17_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 18_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 19_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 20_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 21_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 22_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 23_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_13_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_22_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_23_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_24_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 24_25_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_10_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_16_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_17_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_18_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_19_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_20_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 25_21_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 26_11_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 26_12_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 26_14_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 26_15_conv.dat region file.
+[16-04-2024 17:52:51]	SEVERE	Error loading 26_16_conv.dat region file.
+[16-04-2024 17:52:51]	INFO	Loaded 0 L2OFF region files.
+[16-04-2024 17:52:51]	WARNING	Failed to load 139 L2OFF region files. Please consider to check your "geodata.properties" settings and location of your geodata files.

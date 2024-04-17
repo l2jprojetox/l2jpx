@@ -41,11 +41,14 @@ public class InventoryUpdateTaskManager implements Runnable
 			inv.updateWeight();
 		}
 	}
-	
-	public void add(Inventory inv)
-	{
-		if (!_list.contains(inv))
+
+	public void add(Inventory inv) {
+		// Only add the inventory if it's not already in the list
+		if (!_list.contains(inv)) {
 			_list.add(inv);
+		} else {
+			System.out.println("Attempted to add an inventory that's already in the list");
+		}
 	}
 	
 	public static final InventoryUpdateTaskManager getInstance()
