@@ -1,0 +1,44 @@
+package com.l2jpx.gameserver.model.actor.instance;
+
+import java.util.List;
+
+import com.l2jpx.commons.random.Rnd;
+
+import com.l2jpx.gameserver.enums.ScriptEventType;
+import com.l2jpx.gameserver.model.actor.Attackable;
+import com.l2jpx.gameserver.model.actor.Player;
+import com.l2jpx.gameserver.model.actor.template.NpcTemplate;
+import com.l2jpx.gameserver.scripting.Quest;
+
+/**
+ * This class represents Friendly Mobs lying over the world.<br>
+ * These friendly mobs should only attack players with karma > 0 and it is always aggro, since it just attacks players with karma.
+ */
+public class FriendlyMonster extends Attackable
+{
+	public FriendlyMonster(int objectId, NpcTemplate template)
+	{
+		super(objectId, template);
+	}
+	
+	@Override
+	public void onInteract(Player player)
+	{
+		if (hasRandomAnimation())
+			onRandomAnimation(Rnd.get(8));
+		
+		player.getQuestList().setLastQuestNpcObjectId(getObjectId());
+		
+		final List<Quest> scripts = getTemplate().getEventQuests(ScriptEventType.ON_FIRST_TALK);
+		if (scripts.size() == 1)
+			scripts.get(0).notifyFirstTalk(this, player);
+		else
+			showChatWindow(player);
+	}
+	
+	@Override
+	public boolean isAggressive()
+	{
+		return true;
+	}
+}
