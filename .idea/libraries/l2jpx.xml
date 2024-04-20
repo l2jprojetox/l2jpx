@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="l2jpx">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/aCis_gameserver/java" />
+    </SOURCES>
+  </library>
+</component>

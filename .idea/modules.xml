@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../L2jTesla/aCis_gameserver.iml" filepath="$PROJECT_DIR$/../L2jTesla/aCis_gameserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aCis_datapack/aCis_datapack.iml" filepath="$PROJECT_DIR$/aCis_datapack/aCis_datapack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aCis_gameserver/aCis_gameserver.iml" filepath="$PROJECT_DIR$/aCis_gameserver/aCis_gameserver.iml" />
     </modules>
   </component>
 </project>
