@@ -10,6 +10,8 @@ import com.l2jpx.gameserver.data.xml.AdminData;
 import com.l2jpx.gameserver.enums.FloodProtector;
 import com.l2jpx.gameserver.handler.AdminCommandHandler;
 import com.l2jpx.gameserver.handler.IAdminCommandHandler;
+import com.l2jpx.gameserver.handler.IVoicedCommandHandler;
+import com.l2jpx.gameserver.handler.VoicedCommandHandler;
 import com.l2jpx.gameserver.model.World;
 import com.l2jpx.gameserver.model.WorldObject;
 import com.l2jpx.gameserver.model.actor.Npc;
@@ -97,7 +99,23 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			}
 			html.disableValidation();
 			player.sendPacket(html);
+
+		}else if (_command.startsWith("voiced_"))
+		{
+			String command = _command.split(" ")[0];
+
+			IVoicedCommandHandler ach = VoicedCommandHandler.getInstance().getHandler(_command.substring(7));
+
+			if (ach == null)
+			{
+				player.sendMessage("The command " + command.substring(7) + " does not exist!");
+				LOGGER.warn("No handler registered for command '" + _command + "'");
+				return;
+			}
+
+			ach.useVoicedCommand(_command.substring(7), player, null);
 		}
+
 		else if (_command.startsWith("npc_"))
 		{
 			if (!player.validateBypass(_command))

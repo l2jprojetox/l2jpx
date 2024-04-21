@@ -1936,7 +1936,18 @@ public abstract class Creature extends WorldObject
 		decayMe();
 		spawnMe();
 	}
-	
+	// protect From Debuffs
+	private boolean _isBuffProtected = false;
+	public void setIsBuffProtected(boolean value)
+	{
+		_isBuffProtected = value;
+	}
+
+	public boolean isBuffProtected()
+	{
+		return _isBuffProtected;
+	}
+
 	/**
 	 * @return True if this {@link Creature} can be healed, false otherwise.
 	 */

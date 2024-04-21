@@ -154,11 +154,11 @@ public class Continuous implements ISkillHandler
 			
 			skill.getEffectsSelf(activeChar);
 		}
-		
+
 		if (!skill.isPotion() && !skill.isToggle())
 			activeChar.setChargedShot(bsps ? ShotType.BLESSED_SPIRITSHOT : ShotType.SPIRITSHOT, skill.isStaticReuse());
 	}
-	
+
 	@Override
 	public SkillType[] getSkillIds()
 	{

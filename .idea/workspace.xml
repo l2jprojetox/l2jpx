@@ -5,198 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc2f2383-ef23-47b4-a120-3e9164d31780" name="Changes" comment="Organizando Imports">
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/commons/data/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/commons/lang/HexUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/commons/logging/CLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/commons/math/MathUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/commons/mmocore/ReceivablePacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/communitybbs/manager/FavoriteBBSManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/communitybbs/manager/TopicBBSManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/manager/PetitionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/manager/ZoneManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/xml/FishData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/xml/ScriptData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/xml/SoulCrystalData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/data/xml/SpellbookData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/SiegeSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/actors/NpcAiType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/actors/NpcTalkCond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/actors/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/bbs/ForumAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/items/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/enums/items/WeaponType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/geoengine/geodata/BlockComplexDynamic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/ISkillHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/admincommandhandlers/AdminEffects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/admincommandhandlers/AdminInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/admincommandhandlers/AdminPledge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/admincommandhandlers/AdminSkill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/chathandlers/ChatAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/chathandlers/ChatAlliance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/chathandlers/ChatTrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/itemhandlers/Calculators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/itemhandlers/Harvesters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/itemhandlers/MercenaryTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/itemhandlers/PetFoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/itemhandlers/SummonItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/skillhandlers/Fishing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/skillhandlers/HealPercent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/targethandlers/TargetAlly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/Shortcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/ai/Intention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/ai/type/DoorAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/container/creature/EffectList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/container/monster/SpoilState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/container/npc/AbsorbInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/container/player/MacroList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/container/player/QuestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/Auctioneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/CastleDoorman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/ClanHallManagerNpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/ControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/FriendlyMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/MutedFolk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/VillageMasterOrc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/instance/Walker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/move/BoatMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/entity/CursedWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/holder/BuffSkillHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/holder/skillnode/SkillNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/itemcontainer/PcInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/location/WalkerLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/multisell/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/olympiad/OlympiadGameClassed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/olympiad/OlympiadGameTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/zone/type/JailZone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/NpcStringId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/Appearing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/AuthLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/CharacterRestore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestBuySeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestFriendInvite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestGmList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestJoinParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestJoinPledge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestOlympiadMatchList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestPCCafeCouponUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestPledgeCrest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestPledgeReorganizeMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestPledgeSetMemberPowerGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestProcureCropList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestRecipeItemMakeSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestRecipeShopMakeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestReplyStopPledgeWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestSurrenderPledgeWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/SendBypassBuildCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/SendProtocolVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/UseItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/gameserverpackets/GameServerBasePacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/loginserverpackets/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/AllianceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/AskJoinParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/Die.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExColosseumFenceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExDuelAskStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExDuelEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExFishingEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExMPCCPartyInfoUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExManagePartyRoomMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExOlympiadMatchEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExShowCropSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ExShowManorDefaultInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/GMViewSkillInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/GetItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/HennaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/InventoryUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/JoinParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/LeaveWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/PartyMatchList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/PledgeShowMemberListDeleteAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/PrivateStoreMsgSell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/SendMacroList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ShopPreviewInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ShowPCCafeCouponShowUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/StartPledgeWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/SurrenderPledgeWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/TradePressOwnOk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/serverpackets/ValidateLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q030_ChestCaughtWithABaitOfFire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q052_WilliesSpecialBait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q074_SagaOfTheDreadnought.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q083_SagaOfTheMoonlightSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q085_SagaOfTheCardinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q097_SagaOfTheShillienTemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q099_SagaOfTheFortuneSeeker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q103_SpiritOfCraftsman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q105_SkirmishWithTheOrcs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q109_InSearchOfTheNest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q114_ResurrectionOfAnOldManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q152_ShardsOfGolem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q153_DeliverGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q154_SacrificeToTheSea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q165_ShilensHunt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q215_TrialOfThePilgrim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q234_FatesWhisper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q241_PossessorOfAPreciousSoul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q297_GatekeepersFavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q319_ScentOfDeath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q320_BonesTellTheFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q326_VanquishRemnants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q330_AdeptOfTaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q333_HuntOfTheBlackLion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q353_PowerOfDarkness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q510_AClansReputation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q603_DaimonTheWhiteEyed_Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q605_AllianceWithKetraOrcs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q609_MagicalPowerOfWater_Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q622_SpecialtyLiquorDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q629_CleanUpTheSwampOfScreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q644_GraveRobberAnnihilation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/quest/Q688_DefeatTheElrokianRaiders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/script/ai/area/HotSprings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/script/feature/CabalBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/script/teleport/HuntingGroundsTeleporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/scripting/task/RaidPointReset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/Formulas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/conditions/ConditionPlayerRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/conditions/ConditionSkillStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/conditions/ConditionUsingItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectBetray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectChanceSkillTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectDistrust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectFakeDeath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectIncreaseCharges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectManaHealOverTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectProtectionBlessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectRecovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectRemoveTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/effects/EffectSpoil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/funcs/FuncMaxCpMul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillElemental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillSeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillSiegeFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillSignet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillSignetCasttime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillSpawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/skills/l2skills/L2SkillTeleport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/taskmanager/BuyListTaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/taskmanager/GameTimeTaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/taskmanager/RandomAnimationTaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/SelectorHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/data/manager/IpBanManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/network/LoginClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/network/LoginPacketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/network/SessionKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/network/gameserverpackets/GameServerAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/loginserver/network/serverpackets/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/config/hexid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/IVoicedCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/VoicedCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/voicedcommandhandlers/NewMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/gameserver/config/hexid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/hexid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/log/console/console_0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/log/console/console_0.txt.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/log/error/error_0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/log/error/error_0.txt.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/serverNames.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_datapack/tools/database_installer.bat" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_datapack/tools/database_installer.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/aCis_gameserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/aCis_gameserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/chathandlers/ChatAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/chathandlers/ChatAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/skillhandlers/Continuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/handler/skillhandlers/Continuous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/model/actor/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestBypassToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestBypassToServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestJoinParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/java/com/l2jpx/gameserver/network/clientpackets/RequestJoinParty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/servidor/gameserver/libs/l2jserver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/gameserver/libs/l2jserver.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/servidor/gameserver/startGameServer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aCis_gameserver/servidor/login/libs/l2jserver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/aCis_gameserver/servidor/login/libs/l2jserver.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -212,22 +58,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/l2jpx",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.GameServer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/l2jpx/aCis_gameserver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\l2jpx\aCis_gameserver\config" />
       <recent name="C:\l2jpx\aCis_gameserver" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.l2jpx.gameserver.GameServer" />
+      <module name="aCis_gameserver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aCis_gameserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l2jpx.gameserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -278,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713574732907</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Organizando Imports">
+      <option name="closed" value="true" />
+      <created>1713574872030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713574872030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

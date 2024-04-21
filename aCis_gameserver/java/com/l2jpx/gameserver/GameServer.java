@@ -74,12 +74,7 @@ import com.l2jpx.gameserver.data.xml.SummonItemData;
 import com.l2jpx.gameserver.data.xml.TeleportData;
 import com.l2jpx.gameserver.data.xml.WalkerRouteData;
 import com.l2jpx.gameserver.geoengine.GeoEngine;
-import com.l2jpx.gameserver.handler.AdminCommandHandler;
-import com.l2jpx.gameserver.handler.ChatHandler;
-import com.l2jpx.gameserver.handler.ItemHandler;
-import com.l2jpx.gameserver.handler.SkillHandler;
-import com.l2jpx.gameserver.handler.TargetHandler;
-import com.l2jpx.gameserver.handler.UserCommandHandler;
+import com.l2jpx.gameserver.handler.*;
 import com.l2jpx.gameserver.idfactory.IdFactory;
 import com.l2jpx.gameserver.model.World;
 import com.l2jpx.gameserver.model.boat.BoatGiranTalking;
@@ -272,7 +267,8 @@ public class GameServer
 		LOGGER.info("Loaded {} skill handlers.", SkillHandler.getInstance().size());
 		LOGGER.info("Loaded {} target handlers.", TargetHandler.getInstance().size());
 		LOGGER.info("Loaded {} user command handlers.", UserCommandHandler.getInstance().size());
-		
+		LOGGER.info("VoicedCommandHandler: Loaded " + VoicedCommandHandler.getInstance().size() + " handlers.");
+
 		StringUtil.printSection("System");
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		

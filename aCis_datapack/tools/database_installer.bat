@@ -4,7 +4,7 @@ REM ############################################
 REM ## You can change here your own DB params ##
 REM ############################################
 REM MYSQL BIN PATH
-set mysqlBinPath=C:\Program Files\MariaDB 10.4\bin
+set mysqlBinPath=C:\Program Files\MariaDB 11.4\bin
 
 REM LOGINSERVER
 set lsuser=root

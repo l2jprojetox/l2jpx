@@ -360,7 +360,7 @@ public final class Player extends Playable
 	private boolean _isHero;
 	
 	private Folk _currentFolk;
-	
+	private boolean _isPartyInRefuse = false; // Party Refusal Mode
 	private final PlayerMemo _memos = new PlayerMemo(getObjectId());
 	
 	private final FishingStance _fishingStance = new FishingStance(this);
@@ -5570,7 +5570,16 @@ public final class Player extends Playable
 	{
 		_race[i] = val;
 	}
-	
+	public boolean isPartyInRefuse()
+	{
+		return _isPartyInRefuse;
+	}
+
+	public void setIsPartyInRefuse(boolean value)
+	{
+		_isPartyInRefuse = value;
+	}
+
 	public BlockList getBlockList()
 	{
 		return _blockList;
