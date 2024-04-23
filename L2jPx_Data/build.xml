@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<project name="aCis_datapack" default="build" basedir=".">
+<project name="L2jPx_Data" default="build" basedir=".">
 
 	<property name="build" location="build" />
 	<property name="build.game" location="${build}/gameserver" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="aCis_gameserver" default="dist" basedir=".">
+<project name="L2jPx_Core" default="dist" basedir=".">
 
 	<property name="src" location="java" />
 	<property name="lib" location="lib" />
