@@ -3,6 +3,10 @@ package com.l2jpx.gameserver.network.clientpackets;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
+import com.l2jpx.commons.lang.StringUtil;
+
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 import com.l2jpx.Config;
 import com.l2jpx.gameserver.communitybbs.CommunityBoard;
 import com.l2jpx.gameserver.data.manager.HeroManager;
@@ -20,7 +24,10 @@ import com.l2jpx.gameserver.model.actor.instance.OlympiadManagerNpc;
 import com.l2jpx.gameserver.model.olympiad.OlympiadManager;
 import com.l2jpx.gameserver.network.SystemMessageId;
 import com.l2jpx.gameserver.network.serverpackets.ActionFailed;
+import com.l2jpx.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.l2jpx.gameserver.network.serverpackets.ExShowScreenMessage.SMPOS;
 import com.l2jpx.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jpx.gameserver.network.serverpackets.SystemMessage;
 import com.l2jpx.gameserver.scripting.QuestState;
 
 public final class RequestBypassToServer extends L2GameClientPacket
@@ -48,6 +55,7 @@ public final class RequestBypassToServer extends L2GameClientPacket
 		if (player == null)
 			return;
 		
+		final AutofarmPlayerRoutine bot = player.getBot();
 		if (_command.startsWith("admin_"))
 		{
 			String command = _command.split(" ")[0];
@@ -99,7 +107,160 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			}
 			html.disableValidation();
 			player.sendPacket(html);
+		}
+	        else if (_command.startsWith("_infosettings"))
+	        {
+	            showAutoFarm(player);
+	        }
 
+	        
+	        
+	        else if (_command.startsWith("_autofarm"))
+	        {
+	            if (player.isAutoFarm())
+	            {
+	                bot.stop();
+	                player.setAutoFarm(false);
+	            }
+	            else
+	            {
+	                bot.start();
+	                player.setAutoFarm(true);
+	            }
+	            
+	        }
+	        
+	        if (_command.startsWith("_pageAutoFarm"))
+	        {
+	            StringTokenizer st = new StringTokenizer(_command, " ");
+	            st.nextToken();
+	            try
+	            {
+	                String param = st.nextToken();
+	                
+	                if (param.startsWith("inc_page") || param.startsWith("dec_page"))
+	                {
+	                    int newPage;
+	                    
+	                    if (param.startsWith("inc_page"))
+	                    {
+	                        newPage = player.getPage() + 1;
+	                    }
+	                    else
+	                    {
+	                        newPage = player.getPage() - 1;
+	                    }
+	                    
+	                    if (newPage >= 0 && newPage <= 9)
+	                    {
+	                        String[] pageStrings =
+	                        {
+	                            "F1",
+	                            "F2",
+	                            "F3",
+	                            "F4",
+	                            "F5",
+	                            "F6",
+	                            "F7",
+	                            "F8",
+	                            "F9",
+	                            "F10"
+	                        };
+	                        
+	                        player.setPage(newPage);
+	                        player.sendPacket(new ExShowScreenMessage("Auto Farm Skill Bar " + pageStrings[newPage], 3 * 1000, SMPOS.TOP_CENTER, false));
+	                        player.saveAutoFarmSettings();
+	                        
+	                    }
+	                    
+	                }
+	                
+	            }
+	            catch (Exception e)
+	            {
+	                e.printStackTrace();
+	            }
+	        }
+	        
+	        if (_command.startsWith("_enableBuffProtect"))
+	        {
+	            player.setNoBuffProtection(!player.isNoBuffProtected());
+	            if (player.isNoBuffProtected())
+	            {
+	                player.sendPacket(new ExShowScreenMessage("Auto Farm Buff Protect On", 3 * 1000, SMPOS.TOP_CENTER, false));
+	            }
+	            else
+	            {
+	                player.sendPacket(new ExShowScreenMessage("Auto Farm Buff Protect Off", 3 * 1000, SMPOS.TOP_CENTER, false));
+	            }
+	            player.saveAutoFarmSettings();
+	        }
+	        if (_command.startsWith("_enableSummonAttack"))
+	        {
+	            player.setSummonAttack(!player.isSummonAttack());
+	            if (player.isSummonAttack())
+	            {
+	                player.sendPacket(new SystemMessage(SystemMessageId.ACTIVATE_SUMMON_ACTACK));
+	                player.sendPacket(new ExShowScreenMessage("Auto Farm Summon Attack On", 3 * 1000, SMPOS.TOP_CENTER, false));
+	            }
+	            else
+	            {
+	                player.sendPacket(new SystemMessage(SystemMessageId.DESACTIVATE_SUMMON_ACTACK));
+	                player.sendPacket(new ExShowScreenMessage("Auto Farm Summon Attack Off", 3 * 1000, SMPOS.TOP_CENTER, false));
+	            }
+	            player.saveAutoFarmSettings();
+	        }
+	        
+	        
+	          
+			
+					if (_command.startsWith("_enableRespectHunt"))
+			{
+				
+				player.setAntiKsProtection(!player.isAntiKsProtected());
+				if (player.isAntiKsProtected())
+				{
+					player.sendPacket(new SystemMessage(SystemMessageId.ACTIVATE_RESPECT_HUNT));
+					player.sendPacket(new ExShowScreenMessage("Respct Hunt On", 3 * 1000, SMPOS.TOP_CENTER, false));
+				}
+				else
+				{
+					player.sendPacket(new SystemMessage(SystemMessageId.DESACTIVATE_RESPECT_HUNT));
+					player.sendPacket(new ExShowScreenMessage("Respct Hunt Off", 3 * 1000, SMPOS.TOP_CENTER, false));
+				}
+				player.saveAutoFarmSettings();
+				
+			}
+			
+			
+			if (_command.startsWith("_radiusAutoFarm"))
+			{
+				StringTokenizer st = new StringTokenizer(_command, " ");
+				st.nextToken();
+				try
+				{
+					String param = st.nextToken();
+					
+					if (param.startsWith("inc_radius"))
+					{
+						player.setRadius(player.getRadius() + 200);
+						player.sendPacket(new ExShowScreenMessage("Auto Farm Range: " + player.getRadius(), 3 * 1000, SMPOS.TOP_CENTER, false));
+						
+					}
+					else if (param.startsWith("dec_radius"))
+					{
+						player.setRadius(player.getRadius() - 200);
+						player.sendPacket(new ExShowScreenMessage("Auto Farm Range: " + player.getRadius(), 3 * 1000, SMPOS.TOP_CENTER, false));
+						
+					}
+					player.saveAutoFarmSettings();
+				}
+				catch (Exception e)
+				{
+					e.printStackTrace();
+				}
+			
+			
 		}else if (_command.startsWith("voiced_"))
 		{
 			String command = _command.split(" ")[0];
@@ -203,5 +364,28 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			final int arenaId = Integer.parseInt(_command.substring(12).trim());
 			player.enterOlympiadObserverMode(arenaId);
 		}
+	}
+	private static final String ACTIVED = "<font color=00FF00>STARTED</font>";
+	private static final String DESATIVED = "<font color=FF0000>STOPPED</font>";
+	private static final String STOP = "STOP";
+	private static final String START = "START";
+	
+	public static void showAutoFarm(Player activeChar)
+	{
+	    NpcHtmlMessage html = new NpcHtmlMessage(0);
+	    html.setFile("data/html/mods/menu/AutoFarm.htm");
+	    html.replace("%player%", activeChar.getName());
+	    html.replace("%page%", StringUtil.formatNumber(activeChar.getPage() + 1));
+	    html.replace("%heal%", StringUtil.formatNumber(activeChar.getHealPercent()));
+	    html.replace("%radius%", StringUtil.formatNumber(activeChar.getRadius()));
+	    html.replace("%summonSkill%", StringUtil.formatNumber(activeChar.getSummonSkillPercent()));
+	    html.replace("%hpPotion%", StringUtil.formatNumber(activeChar.getHpPotionPercentage()));
+	    html.replace("%mpPotion%", StringUtil.formatNumber(activeChar.getMpPotionPercentage()));
+	    html.replace("%noBuff%", activeChar.isNoBuffProtected() ? "back=L2UI.CheckBox_checked fore=L2UI.CheckBox_checked" : "back=L2UI.CheckBox fore=L2UI.CheckBox");
+	    html.replace("%summonAtk%", activeChar.isSummonAttack() ? "back=L2UI.CheckBox_checked fore=L2UI.CheckBox_checked" : "back=L2UI.CheckBox fore=L2UI.CheckBox");
+	    html.replace("%antiKs%", activeChar.isAntiKsProtected() ? "back=L2UI.CheckBox_checked fore=L2UI.CheckBox_checked" : "back=L2UI.CheckBox fore=L2UI.CheckBox");
+	    html.replace("%autofarm%", activeChar.isAutoFarm() ? ACTIVED : DESATIVED);
+	    html.replace("%button%", activeChar.isAutoFarm() ? STOP : START);
+	    activeChar.sendPacket(html);
 	}
 }

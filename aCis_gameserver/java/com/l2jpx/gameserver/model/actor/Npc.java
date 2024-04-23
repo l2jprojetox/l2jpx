@@ -9,6 +9,8 @@ import com.l2jpx.commons.lang.StringUtil;
 import com.l2jpx.commons.pool.ThreadPool;
 import com.l2jpx.commons.random.Rnd;
 
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 import com.l2jpx.Config;
 import com.l2jpx.gameserver.data.SkillTable.FrequentSkill;
 import com.l2jpx.gameserver.data.cache.HtmCache;
@@ -886,6 +888,7 @@ public class Npc extends Creature
 		if (!isTeleportAllowed(player))
 			return;
 		
+		final AutofarmPlayerRoutine bot = player.getBot();
 		final List<Location> teleports = InstantTeleportData.getInstance().getTeleports(getNpcId());
 		if (teleports == null || index > teleports.size())
 			return;
@@ -895,6 +898,11 @@ public class Npc extends Creature
 			return;
 		
 		player.teleportTo(teleport, 20);
+		 if (player.isAutoFarm())
+	        {
+	            bot.stop();
+	            player.setAutoFarm(false);
+	        }
 	}
 	
 	/**
@@ -917,6 +925,8 @@ public class Npc extends Creature
 		if (teleport == null)
 			return;
 		
+		final AutofarmPlayerRoutine bot = player.getBot();
+		
 		if (teleport.getCastleId() > 0)
 		{
 			final Castle castle = CastleManager.getInstance().getCastleById(teleport.getCastleId());
@@ -929,6 +939,12 @@ public class Npc extends Creature
 		
 		if (Config.FREE_TELEPORT || teleport.getPriceCount() == 0 || player.destroyItemByItemId("InstantTeleport", teleport.getPriceId(), teleport.getPriceCount(), this, true))
 			player.teleportTo(teleport, 20);
+		
+		if (player.isAutoFarm())
+        {
+            bot.stop();
+            player.setAutoFarm(false);
+        }
 		
 		player.sendPacket(ActionFailed.STATIC_PACKET);
 	}

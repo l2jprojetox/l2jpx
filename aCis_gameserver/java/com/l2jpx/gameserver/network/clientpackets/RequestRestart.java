@@ -10,6 +10,8 @@ import com.l2jpx.gameserver.network.serverpackets.CharSelectInfo;
 import com.l2jpx.gameserver.network.serverpackets.RestartResponse;
 import com.l2jpx.gameserver.taskmanager.AttackStanceTaskManager;
 
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 public final class RequestRestart extends L2GameClientPacket
 {
 	@Override
@@ -37,6 +39,13 @@ public final class RequestRestart extends L2GameClientPacket
 			return;
 		}
 		
+        if (player.isAutoFarm())
+        {
+        	if(AutofarmPlayerRoutine.isIpAllowed(player.getIP())) 
+        	{
+        		AutofarmPlayerRoutine.removeIpEntry(player.getObjectId());
+        	}   
+        }
 		if (AttackStanceTaskManager.getInstance().isInAttackStance(player))
 		{
 			player.sendPacket(SystemMessageId.CANT_RESTART_WHILE_FIGHTING);

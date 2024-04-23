@@ -11796,6 +11796,13 @@ public final class SystemMessageId
 	 */
 	public static final SystemMessageId PLEASE_WAIT_A_MOMENT;
 	
+	public static final SystemMessageId DESACTIVATE_SUMMON_ACTACK;	
+	public static final SystemMessageId ACTIVATE_RESPECT_HUNT;
+	public static final SystemMessageId DESACTIVATE_RESPECT_HUNT;
+	public static final SystemMessageId ACTIVATE_SUMMON_ACTACK;	
+	public static final SystemMessageId AUTO_FARM_DESACTIVATED;
+	public static final SystemMessageId AUTO_FARM_ACTIVATED;
+	
 	/**
 	 * Array containing all SystemMessageIds<br>
 	 * Important: Always initialize with a length of the highest SystemMessageId + 1!!!
@@ -13764,6 +13771,12 @@ public final class SystemMessageId
 		S1_CANNOT_PARTICIPATE_IN_OLYMPIAD_DURING_TELEPORT = new SystemMessageId(2029);
 		CURRENTLY_LOGGING_IN = new SystemMessageId(2030);
 		PLEASE_WAIT_A_MOMENT = new SystemMessageId(2031);
+		AUTO_FARM_DESACTIVATED = new SystemMessageId(2155);
+		ACTIVATE_SUMMON_ACTACK = new SystemMessageId(2156);
+		DESACTIVATE_SUMMON_ACTACK = new SystemMessageId(2157);		
+		ACTIVATE_RESPECT_HUNT = new SystemMessageId(2158);
+		DESACTIVATE_RESPECT_HUNT = new SystemMessageId(2159);
+		AUTO_FARM_ACTIVATED = new SystemMessageId(2160);
 		
 		buildFastLookupTable();
 	}

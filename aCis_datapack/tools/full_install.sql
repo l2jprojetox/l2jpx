@@ -2,6 +2,7 @@ DROP TABLE IF EXISTS accounts;
 DROP TABLE IF EXISTS gameservers;
 DROP TABLE IF EXISTS auctions;
 DROP TABLE IF EXISTS augmentations;
+DROP TABLE IF EXISTS Auto_Farm_Ip;
 DROP TABLE IF EXISTS bbs_favorite;
 DROP TABLE IF EXISTS bbs_forum;
 DROP TABLE IF EXISTS bbs_mail;

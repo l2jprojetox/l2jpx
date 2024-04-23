@@ -7,6 +7,8 @@ import com.l2jpx.gameserver.network.SystemMessageId;
 import com.l2jpx.gameserver.network.serverpackets.ActionFailed;
 import com.l2jpx.gameserver.taskmanager.AttackStanceTaskManager;
 
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 public final class Logout extends L2GameClientPacket
 {
 	@Override
@@ -46,6 +48,14 @@ public final class Logout extends L2GameClientPacket
 			player.sendPacket(SystemMessageId.NO_LOGOUT_HERE);
 			player.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
+		}
+		
+		if (player.isAutoFarm())
+		{
+			if(AutofarmPlayerRoutine.isIpAllowed(player.getIP())) 
+			{
+				AutofarmPlayerRoutine.removeIpEntry(player.getObjectId());
+			}
 		}
 		
 		player.removeFromBossZone();

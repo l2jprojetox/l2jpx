@@ -10,6 +10,8 @@ import com.l2jpx.gameserver.model.entity.ClanHallSiege;
 import com.l2jpx.gameserver.model.entity.Siege;
 import com.l2jpx.gameserver.model.pledge.Clan;
 
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 public class Die extends L2GameServerPacket
 {
 	private final Creature _creature;
@@ -29,9 +31,14 @@ public class Die extends L2GameServerPacket
 		if (creature instanceof Player)
 		{
 			Player player = (Player) creature;
+			final AutofarmPlayerRoutine bot = player.getBot();
 			_allowFixedRes = player.getAccessLevel().allowFixedRes();
 			_clan = player.getClan();
-			
+	        if (player.isAutoFarm())
+	        {
+	            bot.stop();
+	            player.setAutoFarm(false);
+	        }	
 		}
 		else if (creature instanceof Monster)
 			_sweepable = ((Monster) creature).getSpoilState().isSweepable();

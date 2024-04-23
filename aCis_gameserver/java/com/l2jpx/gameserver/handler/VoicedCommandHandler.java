@@ -1,6 +1,6 @@
 package com.l2jpx.gameserver.handler;
 
-import com.l2jpx.gameserver.handler.voicedcommandhandlers.NewMenu;
+import com.l2jpx.gameserver.handler.voicedcommandhandlers.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class VoicedCommandHandler
 
     protected VoicedCommandHandler()
     {
-        // coloque aqui os comandos
+        registerHandler(new AutoFarm());
         registerHandler(new NewMenu());
     }
 

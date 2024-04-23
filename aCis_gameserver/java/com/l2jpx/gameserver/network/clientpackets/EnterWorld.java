@@ -2,6 +2,8 @@ package com.l2jpx.gameserver.network.clientpackets;
 
 import java.util.Map.Entry;
 
+import l2jbrasil.AutoFarm.AutofarmPlayerRoutine;
+
 import com.l2jpx.Config;
 import com.l2jpx.gameserver.communitybbs.manager.MailBBSManager;
 import com.l2jpx.gameserver.data.SkillTable.FrequentSkill;
@@ -216,6 +218,22 @@ public class EnterWorld extends L2GameClientPacket
 		player.sendPacket(SevenSignsManager.getInstance().getCurrentPeriod().getMessageId());
 		AnnouncementData.getInstance().showAnnouncements(player, false);
 		
+    	if(AutofarmPlayerRoutine.isIpAllowed(player.getIP())) {
+    		AutofarmPlayerRoutine.removeIpEntry(player.getObjectId());
+    	}
+    	
+        
+                   player.loadAutoFarmSettings();
+
+    	       if(player.isSummonAttack()) {
+    	    	   player.sendPacket(new SystemMessage(SystemMessageId.ACTIVATE_SUMMON_ACTACK));
+    	           
+    	       }
+    	       
+    	       if(player.isAntiKsProtected()) {
+    	    	   player.sendPacket(new SystemMessage(SystemMessageId.ACTIVATE_RESPECT_HUNT));
+    	       }  
+    	       
 		// If the Player is a Dark Elf, check for Shadow Sense at night.
 		if (player.getRace() == ClassRace.DARK_ELF && player.hasSkill(L2Skill.SKILL_SHADOW_SENSE))
 			player.sendPacket(SystemMessage.getSystemMessage((GameTimeTaskManager.getInstance().isNight()) ? SystemMessageId.NIGHT_S1_EFFECT_APPLIES : SystemMessageId.DAY_S1_EFFECT_DISAPPEARS).addSkillName(L2Skill.SKILL_SHADOW_SENSE));
