@@ -1,115 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="build" default="cleanup" basedir=".">
+<!DOCTYPE xml>
+<project name="L2JProjectX_Classic_Interlude" default="cleanup" basedir=".">
 	<description>
-        This script will build the L2JFrozen 1.5
-        This program is opensource   
-    </description>
+		This file is part of the L2J Mobius project.
+		
+		This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+		
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details.
+		
+		You should have received a copy of the GNU General Public License
+		along with this program. If not, see [http://www.gnu.org/licenses/].
+	</description>
 
-	<property name="src" location="head-src" />
-	<property name="lib" location="lib" />
+	<property name="build" location="../build" />
+	<property name="build.bin" location="${build}/bin" />
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.libs" location="${build.dist}/libs" />
+	<property name="build.dist.dbinstaller" location="${build.dist}/db_installer" />
+	<property name="datapack" location="dist" />
+	<property name="libs" location="${datapack}/libs" />
+	<property name="src" location="java" />
 
 	<path id="classpath">
-		<fileset dir="${lib}">
+		<fileset dir="${libs}">
 			<include name="*.jar" />
+			<exclude name="**/*-sources.jar" />
 		</fileset>
 	</path>
-	
-	<target name="checkVersions" description="Check Requirements.">
-		<echo>Ant version: ${ant.version}</echo> 
-		<echo>Ant Java version: ${ant.java.version}</echo> 
-		<echo>Java detail version: ${java.version}</echo>
 
-		<!-- Make sure Java 11 version is being used -->
-		<condition property="java11">
-			<javaversion atleast="11"/>
-		</condition>    
-		<fail unless="java11">Java 11 version is necessary to compile the core!</fail>
+	<pathconvert property="manifest.libs" pathsep=" ">
+		<path refid="classpath" />
+		<mapper>
+			<chainedmapper>
+				<flattenmapper />
+				<globmapper from="*.jar" to="../libs/*.jar" />
+			</chainedmapper>
+		</mapper>
+	</pathconvert>
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<fail message="Ant 1.8.2 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.8.2" />
+				</not>
+			</condition>
+		</fail>
+		<available classname="java.util.stream.Stream" property="JDK21.present" />
+		<fail unless="JDK21.present" message="Java 21 is required. But your version is Java ${ant.java.version} and probably JDK is not installed." />
 	</target>
-	
-	<target name="init"  depends="checkVersions" description="Create the output directories.">
-		<property name="build" location="build" />
-		<property name="build.bin" location="${build}/bin" />
-		<property name="build.core" location="${build}/l2jpx-core.jar" />
-		<property name="build.dist" location="${build}/dist" />
-		<property name="build.dist.loginserver.lib" location="${build.dist}/loginserver/lib" />
-		<property name="build.dist.loginserver.log" location="${build.dist}/loginserver/log" />
-		<property name="build.dist.gameserver.lib" location="${build.dist}/gameserver/lib" />
-		<property name="build.dist.gameserver.log" location="${build.dist}/gameserver/log" />
-		<property name="dist" location="dist" />
-		<property name="lib" location="lib" />
-		<property name="properties-file" location="${build.dist}/L2jProjectX.info" />
-		
-		<delete file="${build}/L2jProjectX.zip" />
+
+	<target name="init" depends="checkRequirements" description="Create the output directories.">
+		<delete dir="${build.bin}" quiet="true" />
 		<mkdir dir="${build.bin}" />
 	</target>
 
-	<target name="version" depends="init" description="Create Version file">
+	<target name="compile" depends="init" description="Compile the source.">
+		<javac srcdir="${src}" classpathref="classpath" destdir="${build.bin}" compiler="modern" debug="true" debuglevel="lines,vars,source" includeantruntime="false" source="21" target="21" encoding="UTF-8" />
+	</target>
 
+	<target name="jar" depends="compile" description="Create the jar files.">
 		<tstamp>
-			<format property="build.tstamp" pattern="dd-MM-yyyy hh:mm:ss aa" />
+			<format property="time.stamp" pattern="yyyy-MM-dd HH:mm:ss z" />
 		</tstamp>
 
-		<exec dir="." executable="svnversion" outputproperty="l2jfrozen.revision" failifexecutionfails="false">
-			<arg line="-n ." />
-		</exec>
-		
-		<exec dir="." executable="svn" outputproperty="l2jfrozen.last_revision" failifexecutionfails="false">
-			<arg line="info svn://svn.code.sf.net/p/l2jfrozen/code/ --show-item=revision" />
-		</exec>
-
-		<concat destfile="${properties-file}">revision=${l2jfrozen.revision}
-build-date=${build.tstamp}
----------------------------
-timeline= https://www.l2jbrasil.com/forum/566-releases-compiladas/
-reports= https://www.l2jbrasil.com/forum/571-reportar-bug/
-private support= https://discord.gg/sCqvyK9mKM (You have to pay for the private support or private develop)
-</concat>
-
-		<echo>Building L2jFrozen 1.5 revision: ${l2jfrozen.revision}</echo>
-		<echo>L2jFrozen 1.5 HEAD revision: ${l2jfrozen.last_revision}</echo>
-	</target>
-
-	<target name="compile" depends="version" description="Compile the source.">
-		<javac srcdir="${src}" classpathref="classpath" destdir="${build.bin}" includeantruntime="false" debug="on" encoding="utf-8" nowarn="off" />
-	</target>
-
-	<target name="jar" depends="compile" description="Create the jar file">
-		<jar destfile="${build}/l2jpx-core.jar">
-			<fileset dir="${build.bin}" />
+		<jar destfile="${build.dist.libs}/LoginServer.jar" level="9">
+			<fileset dir="${build.bin}">
+				<exclude name="**/dbinstaller/**" />
+				<exclude name="**/gameserver/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jbrasil.com/" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Main-Class" value="org.l2jpx.loginserver.LoginServer" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.libs}/GameServer.jar" level="9">
+			<fileset dir="${build.bin}">
+				<exclude name="**/dbinstaller/**" />
+				<exclude name="**/loginserver/**" />
+				<exclude name="**/accountmanager/**" />
+				<exclude name="**/gsregistering/**" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Implementation-URL" value="http://www.l2jbrasil.com/" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Main-Class" value="org.l2jpx.gameserver.GameServer" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.dbinstaller}/Database_Installer_GS.jar" level="9">
+			<fileset dir="${build.bin}">
+				<include name="**/dbinstaller/**" />
+				<include name="**/commons/ui/**" />
+				<include name="**/commons/util/**" />
+				<include name="**/SQLFilter**" />
+				<exclude name="**/LauncherLS*" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2jbrasil.com/" />
+				<attribute name="Main-Class" value="org.l2jpx.tools.dbinstaller.LauncherGS" />
+			</manifest>
+		</jar>
+		<jar destfile="${build.dist.dbinstaller}/Database_Installer_LS.jar" level="9">
+			<fileset dir="${build.bin}">
+				<include name="**/dbinstaller/**" />
+				<include name="**/commons/ui/**" />
+				<include name="**/commons/util/**" />
+				<include name="**/SQLFilter**" />
+				<exclude name="**/LauncherGS*" />
+			</fileset>
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${time.stamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="http://www.l2jbrasil.com/" />
+				<attribute name="Main-Class" value="org.l2jpx.tools.dbinstaller.LauncherLS" />
+			</manifest>
 		</jar>
 	</target>
 
-	<target name="adding-core" depends="jar" description="Adding the compiled jar to the Zip file.">
-		
-		<mkdir dir="${build.dist.loginserver.log}" />
-		<mkdir dir="${build.dist.gameserver.log}" />
-		
-		<copy file="${build.core}" todir="${build.dist.loginserver.lib}"/>
-		<copy file="${build.core}" todir="${build.dist.gameserver.lib}"/>
-		
-		<copy todir="${build.dist.loginserver.lib}">
-			<fileset dir="${lib}">
-				<include name="*.jar" />
-			</fileset>
-		</copy>
-		
-		<copy todir="${build.dist.gameserver.lib}">
-			<fileset dir="${lib}">
-				<include name="*.jar" />
-			</fileset>
-		</copy>
-		
-		<zip destfile="${build}/L2jProjectX.zip" basedir="${build.dist}" update="true" />
-	</target>
-	
-	<target name="adding-datapack" depends="adding-core" description="Updating the Zip file with datapack content.">
-		<zip destfile="${build}/L2jProjectX.zip" basedir="${dist}" update="true" excludes="gameserver/log/**, loginserver/log/**,  gameserver/config/hexid.txt, gameserver/data/geodata/geo_bugs.txt"/>
-	</target>
-	
-	<target name="cleanup" depends="adding-datapack" description="Cleaning the build folder.">
-		<delete file="${build.core}" />
-		<delete dir="${build.bin}" />
-		<delete dir="${build.dist}" />
+	<target name="adding-core" depends="jar" description="Adding the compiled jars to the Zip file.">
+		<zip destfile="${build}/L2JProjectX_Classic_Interlude.zip" basedir="${build.dist}" level="9" />
 	</target>
 
+	<target name="adding-datapack" depends="adding-core" description="Updating the Zip file with datapack content.">
+		<zip destfile="${build}/L2JProjectX_Classic_Interlude.zip" basedir="${datapack}" excludes="**/*-sources.jar" update="true" level="9" />
+	</target>
+
+	<target name="adding-readme" depends="adding-datapack" description="Adding readme.txt to the Zip file.">
+		<zip destfile="${build}/L2JProjectX_Classic_Interlude.zip" basedir="." includes="readme.txt" update="true" level="9" />
+	</target>
+
+	<target name="cleanup" depends="adding-readme" description="Cleaning the build folder.">
+		<delete dir="${build.dist}" />
+	</target>
 </project>

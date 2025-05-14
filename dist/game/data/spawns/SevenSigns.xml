@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/spawns.xsd">
+	<spawn name="SevenSigns">
+		<group>
+			<!-- Dawn -->
+			<npc id="31079" x="-13953" y="121454" z="-2984" heading="33000" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31078" x="-80555" y="150387" z="-3040" heading="45000" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31080" x="16354" y="142870" z="-2696" heading="15000" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31081" x="83369" y="149273" z="-3400" heading="32500" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31082" x="111386" y="220908" z="-3544" heading="16000" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31083" x="83106" y="54015" z="-1488" heading="32500" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<npc id="31084" x="146983" y="26645" z="-2200" heading="16500" respawnTime="60sec" /> <!-- Priest of Dawn -->
+			<!-- Dusk -->
+			<npc id="31085" x="-82368" y="151618" z="-3120" heading="48000" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31086" x="-14748" y="124045" z="-3112" heading="48500" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31087" x="18482" y="144626" z="-3056" heading="7000" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31088" x="81591" y="148610" z="-3397" heading="32500" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31089" x="112486" y="220173" z="-3592" heading="33000" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31090" x="82819" y="54657" z="-1520" heading="49000" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<npc id="31091" x="147570" y="28927" z="-2264" heading="33000" respawnTime="60sec" /> <!-- Priestess of Dusk -->
+			<!-- NPC festival Dusk -->
+			<npc id="31137" x="-80208" y="87120" z="-5153" heading="49000" respawnTime="60sec" />
+			<npc id="31138" x="-77200" y="87728" z="-5153" heading="49000" respawnTime="60sec" />
+			<npc id="31139" x="-76096" y="87136" z="-5153" heading="32500" respawnTime="60sec" />
+			<npc id="31140" x="-76944" y="86544" z="-5153" heading="16500" respawnTime="60sec" />
+			<npc id="31141" x="-79968" y="85936" z="-5153" heading="16500" respawnTime="60sec" />
+			<!-- NPC festival Dawn -->
+			<npc id="31127" x="-79184" y="111952" z="-4897" heading="49000" respawnTime="60sec" />
+			<npc id="31128" x="-76176" y="112560" z="-4897" heading="49000" respawnTime="60sec" />
+			<npc id="31129" x="-75072" y="111968" z="-4897" heading="32500" respawnTime="60sec" />
+			<npc id="31130" x="-75920" y="111376" z="-4897" heading="16500" respawnTime="60sec" />
+			<npc id="31131" x="-78928" y="110768" z="-4897" heading="16500" respawnTime="60sec" />
+		</group>
+	</spawn>
+</list>

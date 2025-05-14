@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="PrimevalIsle">
+		<group>
+			<npc id="32105" x="11952" y="-24016" z="-3648" heading="32000" respawnTime="60sec" /> <!-- Dinn -->
+			<npc id="32109" x="23664" y="-8464" z="-1344" heading="33000" respawnTime="60sec" /> <!-- Shilen's Stone Statue -->
+			<npc id="32111" x="7344" y="-5440" z="-3216" heading="50000" respawnTime="60sec" /> <!-- Orahochin -->
+			<npc id="32112" x="5376" y="-2720" z="-3184" heading="16500" respawnTime="60sec" /> <!-- Gariachin -->
+			<npc id="32113" x="11712" y="-23616" z="-3648" heading="40000" respawnTime="60sec" /> <!-- Marquez -->
+			<npc id="32114" x="6538" y="-2529" z="-2944" heading="42000" respawnTime="60sec" /> <!-- Mushika -->
+			<npc id="32115" x="6360" y="-2573" z="-2944" respawnTime="60sec" /> <!-- Asamah -->
+			<npc id="32116" x="12736" y="-14448" z="-3184" respawnTime="60sec" /> <!-- Kirikachin -->
+			<npc id="32117" x="6264" y="-2187" z="-2960" heading="26000" respawnTime="60sec" /> <!-- Karakawei -->
+			<npc id="32118" x="15748" y="-19810" z="-3008" respawnTime="60sec" /> <!-- Mantarasa Egg -->
+			<npc id="32119" x="23707" y="-19108" z="-2800" respawnTime="60sec" /> <!-- Ulu Kaimu -->
+			<npc id="32120" x="27723" y="-11684" z="-2272" respawnTime="60sec" /> <!-- Balu Kaimu -->
+			<npc id="32121" x="18714" y="-9635" z="-2753" respawnTime="60sec" /> <!-- Chuta Kaimu -->
+			<npc id="32122" x="13123" y="-8895" z="-3104" respawnTime="60sec" /> <!-- Warrior's Tomb -->
+			<npc id="32714" x="11504" y="-23344" z="-3648" heading="39000" respawnTime="60sec" /> <!-- Asher -->
+		</group>
+	</spawn>
+</list>

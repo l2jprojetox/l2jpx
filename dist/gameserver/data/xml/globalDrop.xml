@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>                     
-<list>
-	<!-- Date format dd/MM/yyyy, for example, 25/01/2020 -->
-	<drop startDate="22/01/2020" endDate="26/01/2020">
-		<!-- Chance from 0.0 to 100.0 -->
-		<item id="0" min="2" max="2" chance="100" />
-		<item id="0" min="1" max="1" chance="100" />
-	</drop>
-</list>
